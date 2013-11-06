@@ -3,7 +3,7 @@ ul {
 }
 
 .orbit-container {
-	max-height: 400px;
+	max-height: 450px;
 }
 
 #tour1 {
@@ -43,8 +43,16 @@ ul {
 	color: black;
 }
 
-@media only screen and (max-width: 320px) {
+#home-message {
+	padding-top: 50px;
+}
+
+.center-image {
+	text-align: center;
+}
+
+/*@media only screen and (max-width: 320px) {
 
    .home-top-bar { font-size: 0.3em; }
 
-}
+}*/
