@@ -1,3 +1,27 @@
+ul {
+	list-style-type: none;
+}
+
+.orbit-container {
+	max-height: 400px;
+}
+
+#tour1 {
+	background:url(/assets/tour1.jpg) no-repeat center center;
+}
+
+#tour2 {
+	background:url(/assets/tour2.jpg) no-repeat center center;
+}
+
+#tour3 {
+	background:url(/assets/tour3.jpg) no-repeat center center;
+}
+
+#tour4 {
+	background:url(/assets/tour4.jpg) no-repeat center center;
+}
+
 .orbit-container .orbit-timer { 
 	visibility: hidden; 
 }
@@ -8,7 +32,7 @@
 
 .home-top-bar {
 	display: inline-block;
-	font-size:90%;
+	font-size:0.9em;
 	color: #777;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-left: 12px;
@@ -17,4 +41,10 @@
 
 .home-top-bar:hover {
 	color: black;
+}
+
+@media only screen and (max-width: 320px) {
+
+   .home-top-bar { font-size: 0.3em; }
+
 }
