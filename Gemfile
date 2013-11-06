@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'binding_of_caller'
 gem 'better_errors'
+gem 'compass-rails'
+gem 'zurb-foundation'
 
 group :test, :development do
   gem 'rspec-rails'
