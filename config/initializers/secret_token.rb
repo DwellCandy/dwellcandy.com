@@ -9,4 +9,19 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-DwellcandyCom::Application.config.secret_key_base = 'dd8e3c5bed663cb70d7120048bf4dcbc5712d5219d76f853bdf5378cf5e7c44c608c4cb9c5d0bb233946f1529c1e5f4d85b0297adcdf81388e6ed2b92a37f9c1'
+require 'securerandom'
+
+def secure_token
+  token_file = Rails.root.join('.secret')
+  if File.exist?(token_file)
+    # Use the existing token.
+    File.read(token_file).chomp
+  else
+    # Generate a new token and store it in token_file.
+    token = SecureRandom.hex(64)
+    File.write(token_file, token)
+    token
+  end
+end
+
+DwellcandyCom::Application.config.secret_key_base = secure_token
