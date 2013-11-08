@@ -33,20 +33,8 @@ ul {
 	max-height: 450px;
 }
 
-#tour1 {
-	background:url(/assets/tour1.jpg) no-repeat center center;
-}
-
-#tour2 {
-	background:url(/assets/tour2.jpg) no-repeat center center;
-}
-
-#tour3 {
-	background:url(/assets/tour3.jpg) no-repeat center center;
-}
-
-#tour4 {
-	background:url(/assets/tour4.jpg) no-repeat center center;
+.tour-image {
+	max-height: 450px;
 }
 
 .orbit-container .orbit-timer { 
