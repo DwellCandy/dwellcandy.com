@@ -53,7 +53,7 @@ ul {
 	display: inline-block;
 	font-size: 1vw;
 	color: #777;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding-left: 12px;
 	padding-top: 80px;
 }
@@ -81,7 +81,7 @@ ul {
 .text {
 	font-size: 1.2vw;
 	color: #2C3539;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .text.size-large {
@@ -94,7 +94,7 @@ ul {
 
 .text-white {
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .videowrapper {
@@ -115,8 +115,23 @@ ul {
 }
 
 @media only screen and (max-width: 515px) {
-
    .home-bar { 
    	font-size: 0.95vw; 
    }
+}
+
+/* Footer */
+
+.text.footer {
+	color: #666;
+}
+
+.text.footer.size-large:hover {
+	color: gray;
+}
+
+footer {
+	margin-top: 70px;
+	padding-top: 30px;
+	background-color: black;
 }

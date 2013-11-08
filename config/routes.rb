@@ -1,5 +1,5 @@
 DwellcandyCom::Application.routes.draw do
-  root to: "home#index"
+  root to: "staticpages#home"
 
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
