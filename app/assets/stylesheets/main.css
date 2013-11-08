@@ -13,6 +13,22 @@ ul {
 	border: black;
 }
 
+.contain-to-grid.sticky.fixed {
+	height: 60px;
+}
+
+#log-in {
+	padding-left: 25px;
+}
+
+#sign-in-container {
+	padding-top: 0.2em;
+}
+
+#signed-in-list {
+	padding-top: 1em;
+}
+
 .orbit-container {
 	max-height: 450px;
 }
@@ -41,13 +57,17 @@ ul {
 	visibility: hidden; 
 }
 
+#main-logo {
+	padding-top: 45px;
+}
+
 .home-top-bar {
 	display: inline-block;
 	font-size:0.9em;
 	color: #777;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-left: 12px;
-	padding-top: 35px;
+	padding-top: 80px;
 }
 
 .home-top-bar:hover {
@@ -72,6 +92,11 @@ ul {
 
 .text {
 	color: #2C3539;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-white {
+	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 }
 

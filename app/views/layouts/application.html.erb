@@ -21,16 +21,25 @@
   <body>
     <div class="contain-to-grid sticky">
       <nav class="top-bar">
-        <ul class="title-area">
-          <li class="name">
+        <ul class="left">
+          <li>
             <a href="/"><img id="navbar-logo"src="/assets/DC_logo4.png"/></a>
           </li>
         </ul>
         <% if current_user %>
-          Signed in as <strong><%= current_user.first_name %></strong>
-          <%= link_to "Sign out", signout_path, id: "sign_out" %>
+          <ul class="right inline-list" id="signed-in-list">
+            <li><a href="/" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white"><%= current_user.first_name %></a></li>
+            <li><%= link_to "Sign out", signout_path, id: "sign_out" %></li>
+            <li class="divider"></li>
+          </ul>
         <% else %>
-          <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+          <ul class="right">
+            <li class="divider"></li>
+            <li id="sign-in-container"><a class="zocial facebook" href="/auth/facebook", id="sign-in">Sign in</a></li>
+            <li><%= link_to "or Log In", '#', id: "log-in", class: "text-white" %></li>
+            <li class="divider"></li>
+          </ul>
         <% end %>
       </nav>
     </div>
