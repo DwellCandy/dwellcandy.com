@@ -1,0 +1,13 @@
+<div class="row">
+	<%= form_for @user do |f| %>
+		<%= f.label :email, 'Email:' %>
+	  <%= f.email_field :email, placeholder: "email" %><br />
+	  <%= f.label :first_name, 'First Name:' %>
+	  <%= f.text_field :first_name, placeholder: "first name" %><br />
+	  <%= f.label :last_name, 'Last Name:' %>
+	  <%= f.text_field :last_name, placeholder: "last name" %><br />
+	  <%= f.label :password_digest, 'Password:' %>
+	  <%= f.password_field :password_digest, placeholder: "password" %><br />
+	  <%= f.submit "Sign Up" %>
+	<% end %>
+</div>
