@@ -1,0 +1,32 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Jimbo/projects/dwellcandy.com/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Jimbo/projects/dwellcandy.com/app/models/user.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1384064076
+  }
+}
