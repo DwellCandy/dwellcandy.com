@@ -1,4 +1,11 @@
 class User < ActiveRecord::Base
+
+  has_secure_password
+  validates :email, uniqueness: true
+  validates_presence_of :first_name
+
+  before_save { self.email = email.downcase }
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
       user.provider = auth.provider
@@ -11,6 +18,7 @@ class User < ActiveRecord::Base
       user.location = auth.info.location
       user.oauth_token = auth.credentials.token
       user.oauth_expires = Time.at(auth.credentials.expires_at)
+      user.facebook = true
       user.save!
     end
   end

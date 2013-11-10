@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'binding_of_caller'
 gem 'better_errors'
 gem 'compass-rails'
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'zurb-foundation'
 gem 'omniauth-facebook'
 gem 'rails_12factor', group: :production
