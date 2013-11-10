@@ -10,6 +10,7 @@ class UsersController < ApplicationController
       login user
       redirect_to root_path #stub
     else
+      flash[:notice] = user.errors.full_messages
       redirect_to root_path
     end
   end
@@ -17,6 +18,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :email, :password_digest)
+    params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation)
   end
 end

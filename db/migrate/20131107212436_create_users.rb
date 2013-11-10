@@ -13,6 +13,7 @@ class CreateUsers < ActiveRecord::Migration
       t.text :oauth_token
       t.datetime :oauth_expires
       t.string :password_digest
+      t.boolean :facebook, default: false
 
       t.timestamps
     end

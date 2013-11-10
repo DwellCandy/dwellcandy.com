@@ -1,3 +1,11 @@
+<% if flash[:notice] %>
+	<% flash[:notice].each do |notice| %>
+		<div class="row error" id="home-error">
+	    <small><%= notice %></small>
+	  </div>
+	<% end %>
+<% end %>
+
 <div class="row">
 	<div class="small-4 columns">
 		<a href="/"><img id="main-logo" src="/assets/DwellCandyLogo.jpg"/></a>

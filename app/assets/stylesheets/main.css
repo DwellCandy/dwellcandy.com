@@ -2,6 +2,7 @@ ul {
 	list-style-type: none;
 }
 
+/* NAV BAR */
 .top-bar {
 	height: 60px;
 }
@@ -27,6 +28,12 @@ ul {
 
 #signed-in-list {
 	padding-top: 1em;
+}
+
+/* STATIC HOME PAGE */
+
+#home-error {
+	padding-top: 30px;
 }
 
 .orbit-container {

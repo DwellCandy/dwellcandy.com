@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20131109093934) do
     t.text     "oauth_token"
     t.datetime "oauth_expires"
     t.string   "password_digest"
+    t.boolean  "facebook",        default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
