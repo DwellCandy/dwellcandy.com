@@ -3,7 +3,9 @@ class SessionsController < ApplicationController
     flash[:notice] = []
     if params[:session]
       user = User.find_by_email(params[:session][:email])
-      if user && user.authenticate(params[:session][:password])
+      if user.facebook == true
+        flash[:notice] << "Please log in using facebook"
+      elsif user && user.authenticate(params[:session][:password])
         login user
       else
         flash[:notice] << "Invalid email or password"
