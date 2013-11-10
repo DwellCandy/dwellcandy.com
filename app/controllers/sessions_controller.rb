@@ -3,7 +3,6 @@ class SessionsController < ApplicationController
     flash[:notice] = []
     if params[:session]
       user = User.find_by_email(params[:session][:email])
-      binding.pry
       if user && user.authenticate(params[:session][:password])
         login user
       else
