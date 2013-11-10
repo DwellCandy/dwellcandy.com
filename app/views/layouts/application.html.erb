@@ -20,48 +20,50 @@
   </head>
 
   <body>
-    <div class="contain-to-grid sticky fixed">
-      <nav class="top-bar">
-        <ul class="left">
-          <li>
-            <a href="/"><img id="navbar-logo"src="/assets/DC_logo4.png"/></a>
-          </li>
-        </ul>
-        <% if current_user %>
-          <ul class="right inline-list" id="signed-in-list">
-            <li><a href="/" class="text-white">Home</a></li>
-            <li><a href="#" class="text-white"><%= current_user.first_name %></a></li>
-            <li><%= link_to "Sign out", signout_path, id: "sign_out" %></li>
-            <li class="divider"></li>
+    <div id="container">
+      <div class="contain-to-grid sticky fixed">
+        <nav class="top-bar">
+          <ul class="left">
+            <li>
+              <a href="/"><img id="navbar-logo"src="/assets/DC_logo4.png"/></a>
+            </li>
           </ul>
-        <% else %>
-          <ul class="right">
-            <li class="divider"></li>
-            <li id="sign-in-container"><a class="zocial facebook" href="/auth/facebook", id="sign-in">Log in</a></li>
-            <li><%= link_to "Sign up", new_user_path, id: "sign-up", class: "text-white" %><%= link_to "Log in", "/login", id: "log-in", class: "text-white" %></li>
-            <li class="divider"></li>
-          </ul>
-        <% end %>
-      </nav>
-    </div>
-
-    <%= yield %>
-
-    <footer class="footer-bottom">
-      <div class="small-12 columns">
-        <div class="row">
-          <div class="small-6 columns">
-            <h4><a href="#" class="text footer size-large">About Us</a></h4>
-          </div>
-          <div class="small-6 columns">
-            <h4><a href="https://www.facebook.com/dwellcandy" class="text footer size-large">Facebook</a></h4>
-          </div>
-        </div>
-        <div class="row">
-          <p class="text footer size-small">© Copyright 2013 Dwell Candy</p>
-        </div>
+          <% if current_user %>
+            <ul class="right inline-list" id="signed-in-list">
+              <li><a href="/" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white"><%= current_user.first_name %></a></li>
+              <li><%= link_to "Sign out", signout_path, id: "sign_out" %></li>
+              <li class="divider"></li>
+            </ul>
+          <% else %>
+            <ul class="right">
+              <li class="divider"></li>
+              <li id="sign-in-container"><a class="zocial facebook" href="/auth/facebook", id="sign-in">Log in</a></li>
+              <li><%= link_to "Sign up", new_user_path, id: "sign-up", class: "text-white" %><%= link_to "Log in", "/login", id: "log-in", class: "text-white" %></li>
+              <li class="divider"></li>
+            </ul>
+          <% end %>
+        </nav>
       </div>
-    </footer>
+
+      <%= yield %>
+
+      <footer>
+        <div class="small-12 columns">
+          <div class="row">
+            <div class="small-6 columns">
+              <h4><a href="#" class="text footer size-large">About Us</a></h4>
+            </div>
+            <div class="small-6 columns">
+              <h4><a href="https://www.facebook.com/dwellcandy" class="text footer size-large">Facebook</a></h4>
+            </div>
+          </div>
+          <div class="row">
+            <p class="text footer size-small">© Copyright 2013 Dwell Candy</p>
+          </div>
+        </div>
+      </footer>
+    </div>
     
     <%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= javascript_include_tag "application" %>
