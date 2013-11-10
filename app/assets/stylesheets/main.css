@@ -124,6 +124,12 @@ ul {
    }
 }
 
+@media only screen and (min-width: 1530px) {
+   .home-bar { 
+   	font-size: 0.90vw; 
+   }
+}
+
 /* MISC */
 
 .text {
