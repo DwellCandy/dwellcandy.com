@@ -6,6 +6,18 @@
 	</div>
 	<div class="small-9 columns">
 		<h1 class="text size-extra-large">Welcome <%= current_user.first_name %>!</h1>
-		<h4 class="text size-large">This is your Dwell Candy Dashboard</h4>
+	</div>
+</div>
+
+<div class="row">
+	<div class="small-12 columns center-image">
+		<h4 class="text size-large">Request a Free Consultation</h4>
+		<%= form_for @job, url: user_jobs_path(current_user), html: { method: :post } do |f| %>
+			<%= fields_for current_user do |f| %>
+    		<%= f.label :phone_number, "Phone Number:" %>
+    		<%= f.telephone_field :phone_number, placeholder: "phone number" %>
+  		<% end %>
+			<%= f.submit "GET STARTED!", class: "text size-large button round" %>
+		<% end %>
 	</div>
 </div>

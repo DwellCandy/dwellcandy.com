@@ -16,6 +16,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @job = Job.new
   end
 
   private

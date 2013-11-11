@@ -1,7 +1,13 @@
 DwellcandyCom::Application.routes.draw do
   root to: "staticpages#home"
 
-  resources :users, only: [:new, :create, :show]
+  resources :users, only: [:new, :create, :show] do
+    resources :jobs, only: [:create] do
+      member do
+        post 'consultation'
+      end
+    end
+  end
 
   resources :sessions, only: [:create, :destroy]
 
