@@ -8,11 +8,14 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       login user
-      redirect_to root_path #stub
+      redirect_to user_path user
     else
       flash[:notice] = user.errors.full_messages
       redirect_to root_path
     end
+  end
+
+  def show
   end
 
   private

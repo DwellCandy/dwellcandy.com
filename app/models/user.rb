@@ -13,7 +13,7 @@ class User < ActiveRecord::Base
     self.email = auth.info.email
     self.first_name = auth.info.first_name
     self.last_name = auth.info.last_name
-    self.image = auth.info.image
+    self.image = get_photo(auth.uid)
     self.url = auth.info.urls.Facebook
     self.location = auth.info.location
     self.oauth_token = auth.credentials.token
@@ -21,5 +21,11 @@ class User < ActiveRecord::Base
     self.facebook = true
     self.password = 123456
     self.password_confirmation = 123456
+  end
+
+  def get_photo(uid)
+    url = URI.parse("http://graph.facebook.com/#{uid}/?fields=picture")
+    picture_data = MultiJson.load(Net::HTTP.get(url))
+    picture_data['picture']['data']['url']
   end
 end

@@ -126,6 +126,13 @@ ul {
    }
 }
 
+/* USER SHOW */
+
+#profile-image {
+	padding-top: 20px;
+	text-align: right;
+}
+
 /* MISC */
 
 .text {
@@ -136,6 +143,10 @@ ul {
 
 .text.size-large {
 	font-size: 1.8vw;
+}
+
+.text.size-extra-large {
+	font-size: 2.4vw;
 }
 
 .text.size-small{
