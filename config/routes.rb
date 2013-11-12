@@ -1,4 +1,6 @@
 DwellcandyCom::Application.routes.draw do
+  comfy_route :cms_admin, :path => '/admin'
+
   root to: "staticpages#home"
 
   resources :users, only: [:new, :create, :show] do
@@ -15,4 +17,7 @@ DwellcandyCom::Application.routes.draw do
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
   get 'signout', to: 'sessions#destroy', as: 'signout'
+
+  # Make sure this routeset is defined last
+  comfy_route :cms, :path => '/', :sitemap => false
 end
