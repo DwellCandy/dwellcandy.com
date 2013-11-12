@@ -2,10 +2,13 @@ class User < ActiveRecord::Base
 
   has_secure_password
   validates :email, uniqueness: true
+  validates_format_of :email, with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
   validates_presence_of :first_name, :last_name, :email
   validates :password, length: { minimum: 6 }
 
   before_save { self.email = email.downcase }
+
+  has_many :jobs
 
   def from_omniauth(auth)
     self.provider = auth.provider
