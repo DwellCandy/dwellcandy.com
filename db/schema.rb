@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20131109093934) do
 
   create_table "jobs", force: true do |t|
     t.integer  "user_id"
+    t.boolean  "closed",     default: false
     t.boolean  "completed",  default: false
     t.datetime "created_at"
     t.datetime "updated_at"

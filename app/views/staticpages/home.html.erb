@@ -1,11 +1,5 @@
 <div id="body">
-	<% if flash[:notice] %>
-		<% flash[:notice].each do |notice| %>
-			<div class="row error" id="home-error">
-		    <small><%= notice %></small>
-		  </div>
-		<% end %>
-	<% end %>
+	<%= render "/flash_notice" %>
 
 	<div class="row">
 		<div class="small-4 columns">

@@ -10,12 +10,20 @@ body {
    position:relative;
 }
 
+.container {
+	border-style: solid;
+}
+
 #body {
 	padding-bottom: 10em;
 }
 
 ul {
 	list-style-type: none;
+}
+
+.padding-top-30 {
+	padding-top: 30px;
 }
 
 /* NAV BAR */
@@ -47,10 +55,6 @@ ul {
 }
 
 /* STATIC HOME PAGE */
-
-#home-error {
-	padding-top: 30px;
-}
 
 .tour-image {
 	max-height: 450px;
@@ -130,7 +134,10 @@ ul {
 
 #profile-image {
 	padding-top: 20px;
-	text-align: right;
+}
+
+#job-list {
+	padding-top: 20px;
 }
 
 /* MISC */

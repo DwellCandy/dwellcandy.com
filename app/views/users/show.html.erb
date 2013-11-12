@@ -1,23 +1,41 @@
-<div class="row">
-	<div class="small-3 columns" id="profile-image">
-		<% if current_user.image %>
-			<img src=<%= current_user.image %>>
-		<% end %>
-	</div>
-	<div class="small-9 columns">
-		<h1 class="text size-extra-large">Welcome <%= current_user.first_name %>!</h1>
-	</div>
-</div>
+<div id="body">
+	<%= render "/flash_notice" %>
 
-<div class="row">
-	<div class="small-12 columns center-image">
-		<h4 class="text size-large">Request a Free Consultation</h4>
-		<%= form_for @job, url: user_jobs_path(current_user), html: { method: :post } do |f| %>
-			<%= fields_for current_user do |f| %>
-    		<%= f.label :phone_number, "Phone Number:" %>
-    		<%= f.telephone_field :phone_number, placeholder: "phone number" %>
-  		<% end %>
-			<%= f.submit "GET STARTED!", class: "text size-large button round" %>
-		<% end %>
+	<div class="row">
+		<div class="small-5 small-centered columns center-image">
+			<div>
+				<% if current_user.image %>
+					<img src=<%= current_user.image %>  id="profile-image" />
+				<% end %>
+				<h1 class="text size-extra-large">Welcome <%= current_user.first_name %>!</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="small-5 small-centered columns center-image">
+			<% if current_user.jobs %>
+				<div class="small-6 small-centered columns container">
+					<ul id="job-list">
+						<% current_user.jobs.each_with_index do |job, i| %>
+						  <li><%= link_to "#{i + 1} - Job: #{job.created_at.strftime("%d %b. %Y")}", user_job_path(current_user, job) %></li>
+						<% end %>
+					</ul>
+				</div>
+				<p class="text padding-top-30">Request Another Consultation</p>
+			  <%= form_for @job, url: user_jobs_path(current_user), html: {method: :post } do |f| %>
+			  	<%= f.submit "GET STARTED!", class: "text button round" %>
+			  <% end %>
+			<% else %>
+				<h4 class="text size-large padding-top-30">Request a Free Consultation</h4>
+				<%= form_for @job, url: user_jobs_path(current_user), html: { method: :post } do |f| %>
+					<%= fields_for current_user do |f| %>
+		    		<%= f.label :phone_number, "Phone Number:" %>
+		    		<%= f.telephone_field :phone_number, placeholder: "phone number" %>
+		  		<% end %>
+					<%= f.submit "GET STARTED!", class: "text size-large button round" %>
+				<% end %>
+			<% end %>
+		</div>
 	</div>
 </div>
