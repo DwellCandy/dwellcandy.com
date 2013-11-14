@@ -3,6 +3,8 @@ class JobsController < ApplicationController
     flash[:notice] = []
     job = Job.new
     if params["user"]
+      User.valid_attribute?('phone_number', params["user"]["phone_number"])
+      binding.pry
       if current_user.update_attribute(:phone_number, params["user"]["phone_number"])
         current_user.jobs << job
         unless job.save

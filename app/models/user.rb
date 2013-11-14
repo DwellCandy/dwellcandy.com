@@ -31,4 +31,13 @@ class User < ActiveRecord::Base
     picture_data = MultiJson.load(Net::HTTP.get(url))
     picture_data['picture']['data']['url']
   end
+
+  def self.valid_attribute?(attr, value)
+    mock = self.new(attr => value)
+    if mock.valid?
+      true
+    else
+      !mock.errors.has_key?(attr)
+    end
+  end
 end

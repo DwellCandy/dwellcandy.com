@@ -14,7 +14,7 @@
 
 	<div class="row">
 		<div class="small-5 small-centered columns center-image">
-			<% if current_user.jobs %>
+			<% unless current_user.jobs.empty? %>
 				<div class="small-6 small-centered columns container">
 					<ul id="job-list">
 						<% current_user.jobs.each_with_index do |job, i| %>
