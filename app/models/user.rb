@@ -3,6 +3,7 @@ class User < ActiveRecord::Base
   has_secure_password
   validates :email, uniqueness: true
   validates_format_of :email, with: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+  validates_format_of :phone_number, with: /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/
   validates_presence_of :first_name, :last_name, :email
   validates :password, length: { minimum: 6 }
 
@@ -34,10 +35,11 @@ class User < ActiveRecord::Base
 
   def self.valid_attribute?(attr, value)
     mock = self.new(attr => value)
-    if mock.valid?
-      true
+    mock.valid?
+    if mock.errors.messages.has_key?(attr.downcase.to_sym)
+      false
     else
-      !mock.errors.has_key?(attr)
+      true
     end
   end
 end
