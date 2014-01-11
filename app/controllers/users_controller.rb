@@ -19,6 +19,12 @@ class UsersController < ApplicationController
     @job = Job.new
   end
 
+  def new_job
+  end
+
+  def job
+  end
+
   private
 
   def user_params

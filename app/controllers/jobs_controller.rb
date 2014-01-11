@@ -15,9 +15,6 @@ class JobsController < ApplicationController
     redirect_to user_path(current_user)
   end
 
-  def consultation
-  end
-
   def show
   end
 
