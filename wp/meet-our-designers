@@ -1,16 +1,55 @@
-[gallery ids="1996,1689,1683,1682,1681,1680,1676" orderby="rand" royalslider="1"]
+[gallery ids="2136,2144,2143,2135,2137,2138,2139,2140,2141,2142,2145,2146,2147,2148,2149,2150,2151" orderby="rand" royalslider="1"]
 
-[spacer_20]
+[spacer_30]
+[spacer_30]
+[spacer_30]
 
 <div class="teaser">Our decorators and designers have experience working with clients from all over the U.S. Each has her own style, aesthetic and design philosophy that she brings to every project. Please meet Dwell Candy's featured decorators and designers below:</div>
 
 [spacer_20]
 
-[column_one_fourth]
-  <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/ValarieBaser.jpg" width="200" class="alignleft size-full wp-image-1319" />
-[/column_one_fourth]
+[column_one_fifth]
+  <div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/ValarieBaser.jpg" width="200" class="alignleft size-full wp-image-1319" />
+      <strong>Valarie Baser</strong>
+    </a>
+  </div>
+[/column_one_fifth]
+[column_one_fifth]
+  <div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/LaurenPhoto.jpg" width="180" class="alignleft size-full" />
+      <strong>Lauren King</strong>
+    </a>
+  </div>
+[/column_one_fifth]
+[column_one_fifth]
+  <div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/BethPhoto.jpg" width="180" class="alignleft size-full" />
+      <strong>Beth Lauwagie</strong>
+    </a>
+  </div>
+[/column_one_fifth]
+[column_one_fifth]
+  <div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/KatePhoto.jpg" width="200" class="alignleft size-full wp-image-1319" />
+      <strong>Kate Marengo</strong>
+    </a>
+  </div>
+[/column_one_fifth]
+[column_one_fifth]
+<div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/Victoria.jpg" width="200" class="alignleft size-full wp-image-1347" />
+      <strong>Victoria Solomon</strong>
+    </a>
+  </div>
+[/column_one_fifth]
+
 [column_three_fourths]
-  <strong>Valarie Baser</strong>
   <p>Valarie Baser graduated from the Chaminade University of Honolulu and studied at the prestigious Fashion Institute of Technology (FIT), where her peers included design contemporaries Nina Garcia (Project Runway), Tony Chi (International Restaurant Designer) and Matthew Patrick Smith (Interior Designer). Prior to founding her interior design firm, she worked as a Design Assistant for an interior design firm and on a number of theater set projects in Hawaii. Her company provides drafting and design services for clients in New York, and works with Dwell Candy's clients all over the U.S.</p> 
 [/column_three_fourths]
 
