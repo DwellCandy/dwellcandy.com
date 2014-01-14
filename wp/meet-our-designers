@@ -1,4 +1,4 @@
-[gallery ids="2136,2144,2143,2135,2137,2138,2139,2140,2141,2142,2145,2146,2147,2148,2149,2150,2151" orderby="rand" royalslider="1"]
+[gallery ids="2151, 2145, 2143, 2136, 2135, 2138, 2141, 2144, 2150, 2179, 2140, 2142, 2137, 2139, 2149, 2180, 2148, 2178, 2147, 2146" orderby="rand" royalslider="1"]
 
 [spacer_30]
 [spacer_30]
@@ -8,157 +8,55 @@
 
 [spacer_20]
 
-[column_one_fifth]
+[column_one_fourth]
   <div class="hor-center">
     <a href="www.dwellcandy.com" class="hor-center">
-      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/ValarieBaser.jpg" width="200" class="alignleft size-full wp-image-1319" />
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/ValarieBaser.jpg" width="200"/>
       <strong>Valarie Baser</strong>
     </a>
   </div>
-[/column_one_fifth]
-[column_one_fifth]
   <div class="hor-center">
     <a href="www.dwellcandy.com" class="hor-center">
-      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/LaurenPhoto.jpg" width="180" class="alignleft size-full" />
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/LaurenPhoto.jpg" width="180"/>
       <strong>Lauren King</strong>
     </a>
   </div>
-[/column_one_fifth]
-[column_one_fifth]
+[/column_one_fourth]
+[column_one_fourth]
   <div class="hor-center">
     <a href="www.dwellcandy.com" class="hor-center">
-      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/BethPhoto.jpg" width="180" class="alignleft size-full" />
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/BethPhoto.jpg" width="180"/>
       <strong>Beth Lauwagie</strong>
     </a>
   </div>
-[/column_one_fifth]
-[column_one_fifth]
   <div class="hor-center">
     <a href="www.dwellcandy.com" class="hor-center">
-      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/KatePhoto.jpg" width="200" class="alignleft size-full wp-image-1319" />
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/YNL.jpg" width="200"/>
+      <strong>Yu-Ngok Lo</strong>
+    </a>
+  </div>
+[/column_one_fourth]
+[column_one_fourth]
+  <div class="hor-center">
+    <a href="www.dwellcandy.com" class="hor-center">
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/KatePhoto.jpg" width="200"/>
       <strong>Kate Marengo</strong>
     </a>
   </div>
-[/column_one_fifth]
-[column_one_fifth]
+[/column_one_fourth]
+[column_one_fourth]
 <div class="hor-center">
     <a href="www.dwellcandy.com" class="hor-center">
-      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/Victoria.jpg" width="200" class="alignleft size-full wp-image-1347" />
+      <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/Victoria.jpg" width="180"/>
       <strong>Victoria Solomon</strong>
     </a>
   </div>
-[/column_one_fifth]
-
-[column_three_fourths]
-  <p>Valarie Baser graduated from the Chaminade University of Honolulu and studied at the prestigious Fashion Institute of Technology (FIT), where her peers included design contemporaries Nina Garcia (Project Runway), Tony Chi (International Restaurant Designer) and Matthew Patrick Smith (Interior Designer). Prior to founding her interior design firm, she worked as a Design Assistant for an interior design firm and on a number of theater set projects in Hawaii. Her company provides drafting and design services for clients in New York, and works with Dwell Candy's clients all over the U.S.</p> 
-[/column_three_fourths]
-
-<strong>Sample Portfolio</strong>
-
-[lightbox_gallery columns="5" border="yes" spacing="18"]
-  [gal_item title="Living Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-living01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-living01.jpg[/gal_item]
-  [gal_item title="Living Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-living02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-living02.jpg[/gal_item]
-  [gal_item title="Kitchen Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-kitchen-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-kitchen.jpg[/gal_item]
-  [gal_item title="Bedroom Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-bedroom-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-bedroom.jpg[/gal_item]
-  [gal_item title="Dwell Candy Client" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-livingbefore-button.png"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-livingbefore.png[/gal_item]
-  [gal_item title="Dwell Candy Client" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-livingafter-button.png"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-livingafter.png[/gal_item]
-  [gal_item title="Dwell Candy Client" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-diningbefore-button.png"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-diningbefore.png[/gal_item]
-  [gal_item title="Dwell Candy Client" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-diningafter-button.png"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/valarie-diningafter.png[/gal_item]
-[/lightbox_gallery]
-
-[column_one_fourth]
-  <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/LaurenPhoto.jpg" width="180" class="alignleft size-full" />
 [/column_one_fourth]
-[column_three_fourths]
-  <strong>Lauren King</strong>
-  <p>Lauren was originally from Ann Arbor, Michigan. She received her interior design degree from the University of Cincinnatti, a top 5 interior design program alongside schools such as Pratt. She’s currently operating her practice out of Columbus, Ohio and has worked with clients throughout the U.S., including Virginia, North Carolina and Florida. 
-  </ br> </ br>
-  Lauren believes that every home should be both beautiful and functional. For her, there is no better feeling than when a client sees their brand new space for the first time.</p> 
-[/column_three_fourths]
-
-<strong>Sample Portfolio</strong>
-
-[lightbox_gallery columns="5" border="yes" spacing="18"]
-  [gal_item title="Kitchen Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-Kitchen-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-kitchen.jpg[/gal_item]
-  [gal_item title="Living Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-LivingRoom-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-LivingRoom.jpg[/gal_item]
-  [gal_item title="Bath Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBath-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBath.jpg[/gal_item]
-  [gal_item title="Bedroom Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBedroom-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBedroom.jpg[/gal_item]
-  [gal_item title="Bedroom Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBedroom2-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-MasterBedroom2.jpg[/gal_item]
-  [gal_item title="Office Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard1-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard1.jpg[/gal_item]
-  [gal_item title="Office Layout" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard2-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard2.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard3-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/lauren-moodboard3.jpg[/gal_item]
-[/lightbox_gallery]
-
-[column_one_fourth]
-  <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/BethPhoto.jpg" width="180" class="alignleft size-full" />
-[/column_one_fourth]
-[column_three_fourths]
-  <strong>Beth Lauwagie</strong>
-  <p>Beth is originally from Southern Minnesota and grew up on a family farm. She's currently residing in Iowa on a farm with her husband, a few cows and a black dog named 'Bam'. She discovered her passion for interior design when she relocated from Cincinnati to Minnesota, and ever since, has been providing clients with e-design services throughout the U.S.
-[/column_three_fourths]</p>
-<strong>Sample Portfolio</strong>
-
-[lightbox_gallery columns="5" border="yes" spacing="18"]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Stephanie_button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Stephanie.jpg[/gal_item]
-  [gal_item title="Living Before" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-before01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-  designers/beth-steph-before01.jpg[/gal_item]
-  [gal_item title="Living After" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-after01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-after01.jpg[/gal_item]
-  [gal_item title="Bedroom Before" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-before03-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-before03.jpg[/gal_item]
-  [gal_item title="Bedroom After" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-after03-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth-steph-after03.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_BWBedroom_button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_BWBedroom.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Nautical_button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Nautical.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Nursery_button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/beth_Nursery.jpg[/gal_item]
-[/lightbox_gallery]
-
-[column_one_fourth]
-  <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/KatePhoto.jpg" width="200" class="alignleft size-full wp-image-1319" />
-[/column_one_fourth]
-[column_three_fourths]
-  <strong>Kate Marengo</strong>
-  <p>Kate moved to Chicago in 2000, where she received her Bachelor’s degree in Organizational Communication at North Central College in Naperville, Illinois.  She received her Masters of Arts Management from Columbia College Chicago in 2007, with an emphasis on visual arts. </p>
-  <p>Kate Marengo spent the beginning of her career as an executive assistant in the financial services, marketing and real estate industries.  In 2009, she launched Arranging Order to provide professional aesthetic guidance through organizational services and interior design.</p> 
-[/column_three_fourths]
-<strong>Sample Portfolio</strong>
-
-[lightbox_gallery columns="5" border="yes" spacing="18"]
-  [gal_item title="Condo Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-condoafter02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-condoafter02.jpg[/gal_item]
-  [gal_item title="Condo Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-condoafter-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-condoafter.jpg[/gal_item]
-  [gal_item title="Condo Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-loungeafter-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-loungeafter.jpg[/gal_item]
-  [gal_item title="Bedroom Design" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-bedroomafter-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-bedroomafter.jpg[/gal_item]
-  [gal_item title="Workspace Before" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-workspacebefore-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-workspacebefore.jpg[/gal_item]
-  [gal_item title="Workspace After" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-workspaceafter-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-workspaceafter.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard01.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard02.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard03-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/kate-moodboard03.jpg[/gal_item]
-[/lightbox_gallery]
-
-</ br> </ br>
-[column_one_fourth]
-  <img src="http://www.dwellcandy.com/wp-content/assets/images/our-designers/Victoria.jpg" width="200" class="alignleft size-full wp-image-1347" />
-[/column_one_fourth]
-[column_three_fourths]
-  <strong>Victoria Solomon</strong>
-  <p>Victoria Solomon started Victoria Elizabeth Design, an East Coast company, with the belief that anyone can identify their style and live in their dream home. After years of experience working in-house with world re-known interior designers, she was inspired to craft her own style of design. Her design style mixes elegant lines with unexpected colors and textures, all the while reflecting her client's unique personalities and tastes.</p> 
-  <p>Victoria works on both residential and commercial projects across New England including Massachusetts, New York, New Jersey, Connecticut, Rhode Island, Maine, New Hampshire, and Vermont.</p> 
-[/column_three_fourths]
-<strong>Sample Portfolio</strong>
-
-[lightbox_gallery columns="5" border="yes" spacing="18"]
-  [gal_item title="Modern Living" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-modernliving-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-modernliving.jpg[/gal_item]
-  [gal_item title="Modern Living" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-modernliving2-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-modernliving2.jpg[/gal_item]
-  [gal_item title="Retro Workspace" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-retrowork-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-retrowork.jpg[/gal_item]
-  [gal_item title="Rustic Living" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-rustic01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-rustic01.jpg[/gal_item]
-  [gal_item title="Rustic Living" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-rustic02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-rustic02.jpg[/gal_item]
-  [gal_item title="Traditional Bedroom" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional01.jpg[/gal_item]
-  [gal_item title="Traditional Dining" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional02.jpg[/gal_item]
-  [gal_item title="Traditional Home" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional03-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-traditional03.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-moodboard01-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-moodboard01.jpg[/gal_item]
-  [gal_item title="Client Moodboard" thumb="http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-moodboard02-button.jpg"]http://www.dwellcandy.com/wp-content/assets/images/our-designers/victoria-moodboard02.jpg[/gal_item]
-[/lightbox_gallery]
 
 [spacer_20]
 [spacer_20]
 <div class="hor-center">
-  <h4>Interested in speaking with one of our designers?</h4>
+  <h4>Interested in speaking with Us?</h4>
 </div>
 [spacer_20]
 <div class="consultation-regular">
