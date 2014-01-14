@@ -155,7 +155,7 @@ body {
   bottom: 0;
   margin-left: 31%;
   width: 33%;
-  -moz-border-radius:10px;
+  -moz-border-radius:10px;a
   -webkit-border-radius:10px;
   border-radius:10px;
   background: rgb(255, 255, 255);
@@ -645,8 +645,7 @@ a {
 
 a:hover {
 	border: 0;
-	text-decoration: underline;
-	border-bottom: 1px solid #fd8107;
+	text-decoration:underline;
 }
 
 .dropcap {
